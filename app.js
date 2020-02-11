@@ -1,5 +1,9 @@
 const  express = require('express')
-const app = sexpress()
+const app = express()
+
+//Static code
+app.use(express.static('public'))
+
 
 
 app.listen(3000 , () => {
