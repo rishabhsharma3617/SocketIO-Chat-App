@@ -1,0 +1,26 @@
+{
+  "name": "socketio-chat-app",
+  "version": "1.0.0",
+  "description": "THis is the chat app i am amking with the Sockets.io real time",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhsharma3617/SocketIO-Chat-App.git"
+  },
+  "author": "Rishabh Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabhsharma3617/SocketIO-Chat-App/issues"
+  },
+  "homepage": "https://github.com/rishabhsharma3617/SocketIO-Chat-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
