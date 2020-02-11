@@ -13,6 +13,7 @@ var feedback = document.getElementById('feedback')
          message : message.value,
          handle : handle.value      
      })
+     message.value = ''
  })
 
  message.addEventListener('keypress',function(){
